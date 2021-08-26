@@ -5,7 +5,7 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 
 const widgetDivs = document.querySelectorAll('.widget-app')
-
+window.React = React
 console.log('Widget ONN')
 
 widgetDivs.forEach(div => {
