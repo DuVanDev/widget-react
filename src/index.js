@@ -11,7 +11,7 @@ widgetDivs.forEach(div => {
     <React.StrictMode>
       <App />
     </React.StrictMode>,
-    document.getElementById('root'),
+    div,
   )
 })
 
