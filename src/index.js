@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals'
 
 const widgetDivs = document.querySelectorAll('.widget-app')
 
+console.log('Widget ONN')
+
 widgetDivs.forEach(div => {
   ReactDOM.render(
     <React.StrictMode>
